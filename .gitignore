@@ -1,0 +1,37 @@
+# Variáveis de ambiente — NUNCA commitar
+.env
+*.env
+
+# PDF do livro (grande demais para o repo)
+os-sertoes.pdf
+
+# Resultados gerados
+resultados_*.json
+rerank_scores.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+
+# ChromaDB persistido localmente
+chroma_db/
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
